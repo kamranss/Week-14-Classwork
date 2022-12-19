@@ -15,10 +15,12 @@ namespace Domain.Models
             ProductList = new Product[length];
         }
 
+        #region` Get and set List  in a easy way
         public Product this[int productindex]
         {
             get { return ProductList[productindex]; }
             set { ProductList[productindex] = value; }
         }
+        #endregion
     }
 }
